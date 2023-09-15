@@ -1,0 +1,61 @@
+.hero {
+  background-image: url("../assets/food-bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+.hero-content {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  color: black;
+}
+
+.hero-heading {
+  margin-top: 296px;
+  font-size: 48px;
+  font-weight: bold;
+  max-width: 24ch;
+}
+
+.hero p {
+  margin-top: 24px;
+  max-width: 64ch;
+}
+
+.hero-heading span {
+  color: rgb(198, 64, 64);
+}
+
+button {
+  background-color: rgb(198, 64, 64);
+  outline: none;
+  border: none;
+  padding: 8px 12px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  font-size: 18px;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 24px;
+  font-weight: bold;
+  margin-top: 18px;
+}
+
+.navbar a {
+  color: black;
+}
+a.active {
+  border-bottom: 2px solid rgb(198, 64, 64);
+}
